@@ -1,4 +1,4 @@
-//9. Множества
+п»ї//9. РњРЅРѕР¶РµСЃС‚РІР°
 
 #include <iostream>
 #include <stdlib.h>
@@ -137,7 +137,7 @@ bool Multiplicity::is_in_multiplicity(int x)
     return false;
 }
 
-Multiplicity Multiplicity::hard_function(Multiplicity *spis,int k,int n, int b)     //либо только в А, либо только в В. создать такое множество из двух множеств А и В.
+Multiplicity Multiplicity::hard_function(Multiplicity *spis,int k,int n, int b)     //Р»РёР±Рѕ С‚РѕР»СЊРєРѕ РІ Рђ, Р»РёР±Рѕ С‚РѕР»СЊРєРѕ РІ Р’. СЃРѕР·РґР°С‚СЊ С‚Р°РєРѕРµ РјРЅРѕР¶РµСЃС‚РІРѕ РёР· РґРІСѓС… РјРЅРѕР¶РµСЃС‚РІ Рђ Рё Р’.
 {
     int aru[n];
     int ari[n];
@@ -157,7 +157,7 @@ Multiplicity Multiplicity::hard_function(Multiplicity *spis,int k,int n, int b) 
 }
 
 
-void Multiplicity::show(int i)       //Функция вывода объектов
+void Multiplicity::show(int i)       //Р¤СѓРЅРєС†РёСЏ РІС‹РІРѕРґР° РѕР±СЉРµРєС‚РѕРІ
 {
     cout<<"#"<<i+1<<":";
     for(int j=0; j<n; j++)
